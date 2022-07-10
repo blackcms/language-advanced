@@ -1,0 +1,25 @@
+{
+    "name": "blackcms/language-advanced",
+    "description": "Addon for manage advanced languages",
+    "type": "addon",
+    "version": "1.0.0",
+    "homepage": "http://blackcms.pyor.team/addons/language-advanced",
+    "keywords": [
+        "addon",
+        "languages",
+        "advanced"
+    ],
+    "authors": [
+        {
+            "name": "Pyor Team",
+            "email": "dev@pyor.team",
+            "homepage": "http://pyor.team"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "name": "Language Advanced",
+        "namespace": "BlackCMS\\LanguageAdvanced\\",
+        "provider": "BlackCMS\\LanguageAdvanced\\Providers\\LanguageAdvancedServiceProvider"
+    }
+}
